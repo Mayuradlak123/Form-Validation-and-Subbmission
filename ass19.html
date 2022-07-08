@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title> Fatch image Web Application </title>
+    <script src="practice.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        form {
+            background-color: chartreuse;
+        }
+        
+        .col-md-4 {
+            background-color: chartreuse;
+            font-size: 23px;
+            font-family: sans-serif;
+            margin: 30px;
+            display: inline-table
+        }
+        
+        .col-md-3 {
+            background-color: chartreuse;
+            font-size: 23px;
+            font-family: sans-serif;
+            margin: 30px;
+            display: inline-table
+        }
+        
+        .col-md-6 {
+            background-color: chartreuse;
+            font-size: 23px;
+            font-family: sans-serif;
+            margin: 30px;
+            display: inline-table
+        }
+        
+        button {
+            height: 50px;
+            width: 150px;
+            background-color: blue;
+            color: black;
+            padding: 20px 20px;
+            margin-left: 30px;
+            font-size: 23px;
+            font-family: sans-serif;
+            list-style: none;
+        }
+        
+        a {
+            text-decoration: none;
+            list-style: none;
+            color: whitesmoke;
+        }
+        
+        .form-check-input {
+            height: 10px;
+            margin-left: 30px;
+            width: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-3">
+            <label for="validationCustom01" class="form-label">Full name</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom02" class="form-label">Mobile No.</label>
+            <input type="number" class="form-control" id="validationCustom02" value="Otto" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustomUsername" class="form-label">E-mail Address</label>
+            <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend">E-mail</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                    Please choose a username.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+                Please provide a valid city.
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Pincode</label>
+            <input type="number" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+                Please provide a valid zip.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Country</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+                Please provide a valid zip.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Age</label>
+            <input type="number" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+                Please provide a valid zip.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Date of Birth</label>
+            <input type="calender" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+                Please provide a valid zip.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Higher Qualification</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+                Please provide a valid zip.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Institute Name</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+                Please provide a valid zip.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Address</label>
+            <input type="address" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+                Please provide a valid zip.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Linkedlin Link</label>
+            <input type="link" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+                Please provide a valid zip.
+            </div>
+        </div>
+
+        <div class="col-12" id="btn">
+            <button class="btn btn-primary" type="submit"> <a href="Ass20.html"> Submit</a></button>
+            <button class="btn btn-primary" onclick="Refresh()">Refresh</button>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
